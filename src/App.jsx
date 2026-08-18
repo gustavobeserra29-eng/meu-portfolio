@@ -68,7 +68,7 @@ function App() {
                 Entre em Contato
               </a>
               <a href="#projetos" className="px-8 py-3 bg-slate-800 hover:bg-slate-700 text-white font-medium rounded-lg transition-colors inline-flex items-center justify-center border border-slate-700">
-                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" strokeWidth="2"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" strokeWidth="2"><path d="M8 6l-6 6 6 6"/></svg>
                 Ver Projetos
               </a>
             </div>
