@@ -113,7 +113,7 @@ function App() {
             <div className="grid md:grid-cols-2 gap-8">
               {/* Educação */}
               <div className="space-y-6">
-                <h3 className="text-xl font-semibold text-white mb-4 flex items-center border-b border-slate-700 pb-2">
+                <h3 className="text-lg sm:text-xl font-semibold text-white mb-4 flex items-center border-b border-slate-700 pb-2">
                   Histórico Acadêmico
                 </h3>
                 <div className="bg-slate-800/50 p-6 rounded-xl border border-slate-700 hover:border-slate-600 transition-colors">
@@ -132,7 +132,7 @@ function App() {
 
               {/* Experiência */}
               <div className="space-y-6">
-                <h3 className="text-xl font-semibold text-white mb-4 flex items-center border-b border-slate-700 pb-2">
+                <h3 className="text-lg sm:text-xl font-semibold text-white mb-4 flex items-center border-b border-slate-700 pb-2">
                   Experiência Profissional
                 </h3>
                 <div className="bg-slate-800/50 p-6 rounded-xl border border-slate-700 hover:border-slate-600 transition-colors h-full">
