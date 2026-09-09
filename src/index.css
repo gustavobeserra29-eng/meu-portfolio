@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --color-dark: #0f172a;
-  --color-primary: #3b82f6;
+  --color-dark: #070B14; /* Fundo super escuro da apresentação */
+  --color-primary: #00F0FF; /* Ciano Neon */
+  --color-secondary: #9D00FF; /* Roxo Neon */
 }
 
 html {
@@ -11,6 +12,9 @@ html {
 
 body {
   background-color: var(--color-dark);
+  /* Textura pontilhada de tecnologia no fundo */
+  background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
   color: #e2e8f0;
   font-family: ui-sans-serif, system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
