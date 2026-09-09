@@ -90,10 +90,10 @@ function App() {
                   className="h-11 sm:h-12 md:h-16 lg:h-20 w-auto object-contain mix-blend-screen group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="flex flex-col justify-center">
-                  <span className="text-white font-bold text-xs sm:text-sm md:text-lg lg:text-xl tracking-wider md:tracking-widest uppercase leading-tight md:leading-none mb-[2px] md:mb-2 group-hover:text-primary transition-colors">
+                  <span className="text-white font-bold text-[13px] sm:text-[15px] md:text-lg lg:text-xl tracking-wider md:tracking-widest uppercase leading-tight md:leading-none mb-[2px] md:mb-2 group-hover:text-primary transition-colors">
                     Gustavo De Souza<br className="md:hidden" /> Beserra
                   </span>
-                  <span className="text-secondary text-[8px] sm:text-[10px] md:text-xs lg:text-sm font-mono tracking-widest md:tracking-[0.2em] glitch-text-2">
+                  <span className="text-secondary text-[8.5px] sm:text-[10.5px] md:text-xs lg:text-sm font-mono tracking-widest md:tracking-[0.2em] glitch-text-2">
                     ENGENHEIRO DE SOFTWARE
                   </span>
                 </div>
@@ -124,11 +124,11 @@ function App() {
           {isMenuOpen && (
             <div className="md:hidden bg-[#070B14] border-t border-secondary/30 rounded-b-2xl shadow-xl">
               <div className="px-3 py-3 space-y-2">
-                <a href="#sobre" onClick={toggleMenu} className="block px-3 py-2.5 text-center text-[11px] font-semibold tracking-widest uppercase text-slate-300 hover:text-primary hover:bg-primary/10 rounded-lg transition-all border border-transparent hover:border-primary/30">Sobre</a>
-                <a href="#servicos" onClick={toggleMenu} className="block px-3 py-2.5 text-center text-[11px] font-semibold tracking-widest uppercase text-slate-300 hover:text-primary hover:bg-primary/10 rounded-lg transition-all border border-transparent hover:border-primary/30">Serviços</a>
-                <a href="#processo" onClick={toggleMenu} className="block px-3 py-2.5 text-center text-[11px] font-semibold tracking-widest uppercase text-slate-300 hover:text-primary hover:bg-primary/10 rounded-lg transition-all border border-transparent hover:border-primary/30">Processo</a>
-                <a href="#projetos" onClick={toggleMenu} className="block px-3 py-2.5 text-center text-[11px] font-semibold tracking-widest uppercase text-slate-300 hover:text-primary hover:bg-primary/10 rounded-lg transition-all border border-transparent hover:border-primary/30">Projetos</a>
-                <a href="#contato" onClick={toggleMenu} className="block px-3 py-2.5 text-center text-[11px] font-semibold tracking-widest uppercase text-slate-300 hover:text-primary hover:bg-primary/10 rounded-lg transition-all border border-transparent hover:border-primary/30">Contato</a>
+                <a href="#sobre" onClick={toggleMenu} className="block px-3 py-2.5 text-center text-[12px] font-semibold tracking-widest uppercase text-slate-300 hover:text-primary hover:bg-primary/10 rounded-lg transition-all border border-transparent hover:border-primary/30">Sobre</a>
+                <a href="#servicos" onClick={toggleMenu} className="block px-3 py-2.5 text-center text-[12px] font-semibold tracking-widest uppercase text-slate-300 hover:text-primary hover:bg-primary/10 rounded-lg transition-all border border-transparent hover:border-primary/30">Serviços</a>
+                <a href="#processo" onClick={toggleMenu} className="block px-3 py-2.5 text-center text-[12px] font-semibold tracking-widest uppercase text-slate-300 hover:text-primary hover:bg-primary/10 rounded-lg transition-all border border-transparent hover:border-primary/30">Processo</a>
+                <a href="#projetos" onClick={toggleMenu} className="block px-3 py-2.5 text-center text-[12px] font-semibold tracking-widest uppercase text-slate-300 hover:text-primary hover:bg-primary/10 rounded-lg transition-all border border-transparent hover:border-primary/30">Projetos</a>
+                <a href="#contato" onClick={toggleMenu} className="block px-3 py-2.5 text-center text-[12px] font-semibold tracking-widest uppercase text-slate-300 hover:text-primary hover:bg-primary/10 rounded-lg transition-all border border-transparent hover:border-primary/30">Contato</a>
               </div>
             </div>
           )}
@@ -147,11 +147,11 @@ function App() {
           <div className="flex md:hidden flex-col w-full gap-5 relative z-10">
             <div className="flex flex-row items-center justify-between gap-3 w-full">
               <div className="flex-1 text-left">
-                <h1 className="text-[28px] sm:text-4xl font-bold text-white leading-tight mb-2">
+                <h1 className="text-[30px] sm:text-[38px] font-bold text-white leading-tight mb-2">
                   Muito prazer,<br/>sou o <span className="text-primary glitch-text-2">Gustavo.</span>
                 </h1>
                 <div className="inline-block border border-secondary py-1 px-2 rounded-md bg-secondary/10">
-                  <p className="text-secondary font-semibold text-[10px] leading-tight">
+                  <p className="text-secondary font-semibold text-[11px] leading-tight">
                     Eu construo <span className="glitch-text-1">ferramentas</span><br/>que resolvem <span className="glitch-text-3">problemas reais.</span>
                   </p>
                 </div>
@@ -162,15 +162,15 @@ function App() {
               </div>
             </div>
             
-            <p className="text-[15px] sm:text-base text-slate-200 leading-relaxed text-left font-medium">
+            <p className="text-[16px] sm:text-[17px] text-slate-200 leading-relaxed text-left font-medium">
               Esqueça templates prontos e genéricos. Meu foco é a <span className="glitch-text-2 text-primary/80">individualização</span>. Construo experiências únicas e sob medida, garantindo que o seu site seja tão <span className="glitch-text-1 text-secondary/80">exclusivo</span> e performático quanto a sua própria marca.
             </p>
             
             <div className="flex flex-row gap-2 w-full mt-1">
-              <a href="https://docs.google.com/presentation/d/1HLV9MJ2s2Vje3of9y-rLhLR7Th3EbEalbR0lw_NkjyU/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="matrix-glitch flex-1 px-2 py-3 bg-primary text-[#070B14] font-bold rounded-lg text-[10px] sm:text-xs flex items-center justify-center text-center shadow-[0_0_15px_rgba(0,240,255,0.4)]">
+              <a href="https://docs.google.com/presentation/d/1HLV9MJ2s2Vje3of9y-rLhLR7Th3EbEalbR0lw_NkjyU/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="matrix-glitch flex-1 px-2 py-3 bg-primary text-[#070B14] font-bold rounded-lg text-[11px] sm:text-[13px] flex items-center justify-center text-center shadow-[0_0_15px_rgba(0,240,255,0.4)]">
                 Apresentação
               </a>
-              <a href="#projetos" className="matrix-glitch flex-1 px-2 py-3 bg-transparent text-white font-medium rounded-lg text-[10px] sm:text-xs border border-secondary flex items-center justify-center text-center">
+              <a href="#projetos" className="matrix-glitch flex-1 px-2 py-3 bg-transparent text-white font-medium rounded-lg text-[11px] sm:text-[13px] border border-secondary flex items-center justify-center text-center">
                 Ver Projetos
               </a>
             </div>
@@ -219,23 +219,19 @@ function App() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             
             {/* =========================================
-                VERSÃO MOBILE DA SEÇÃO SOBRE (LAYOUT FLUIDO E SEM MONOTONIA)
+                VERSÃO MOBILE DA SEÇÃO SOBRE
             ========================================= */}
             <div className="flex md:hidden flex-col w-full gap-5">
               
-              {/* Topo: Título na esquerda e Imagem na direita (Agora o título respira mais) */}
               <div className="flex flex-row items-center justify-between gap-4 w-full">
                 
-                {/* Título */}
                 <div className="flex flex-col flex-1">
-                  <h2 className="text-[26px] sm:text-3xl font-bold text-white leading-[1.2] mb-3">
+                  <h2 className="text-[27px] sm:text-[32px] font-bold text-white leading-[1.2] mb-3">
                     Código Limpo,<br/><span className="text-primary glitch-text-1">Mente Focada.</span>
                   </h2>
-                  {/* Linha decorativa de respiro */}
                   <div className="w-12 h-1 bg-secondary/50 rounded-full mt-1"></div>
                 </div>
 
-                {/* Imagem (Mantida nos 20% maiores) */}
                 <div className="w-[154px] h-[192px] sm:w-[192px] sm:h-[240px] relative rounded-xl overflow-hidden border border-secondary/50 shadow-[0_0_20px_rgba(157,0,255,0.2)] glitch-border-2 flex-shrink-0">
                   <div className="absolute inset-0 bg-gradient-to-t from-[#070B14] via-transparent to-transparent opacity-60 z-10"></div>
                   <img src="/Gustavo.ia.jpg" alt="Gustavo programando" className="w-full h-full object-cover relative z-0" />
@@ -243,52 +239,47 @@ function App() {
                 
               </div>
               
-              {/* Textos formatados para quebrar a monotonia visual */}
               <div className="flex flex-col w-full gap-5 mt-1">
                   
-                  {/* Parágrafo 1 - Leitura fluida e limpa */}
-                  <p className="text-slate-300 text-[14px] sm:text-[15px] leading-relaxed">
+                  <p className="text-slate-300 text-[15px] sm:text-[16px] leading-relaxed">
                     Minha jornada na programação é guiada pela constante busca por <span className="glitch-text-3 text-secondary/80 font-semibold">evolução</span>. Mais do que escrever linhas de código, meu objetivo é construir sistemas inteligentes e automatizados que facilitem o dia a dia.
                   </p>
                   
-                  {/* Parágrafo 2 - CARD DE DESTAQUE (Mata o efeito parede de texto) */}
                   <div className="relative bg-[#070B14]/60 backdrop-blur-sm border-l-4 border-primary p-4 rounded-r-xl shadow-[inset_0_0_20px_rgba(0,240,255,0.03)] border-y border-r border-primary/10">
-                    {/* Efeito de brilho de fundo na caixa */}
                     <div className="absolute top-0 right-0 w-16 h-16 bg-primary/10 blur-[20px] rounded-full pointer-events-none"></div>
                     
-                    <p className="text-slate-200 text-[13px] sm:text-[14px] leading-relaxed relative z-10">
+                    <p className="text-slate-200 text-[14px] sm:text-[15px] leading-relaxed relative z-10">
                       Tenho experiência sólida na criação de interfaces dinâmicas com <span className="text-primary font-medium">React</span> e estruturação de lógicas de negócio. Sempre atento às novas tecnologias, incluindo a integração de <span className="glitch-text-2 text-primary/80 font-bold">Inteligência Artificial</span> para otimizar processos.
                     </p>
                   </div>
                   
-                  {/* Cards de vantagens e Tags */}
                   <div className="flex flex-col gap-3 mt-1">
                     <div className="grid grid-cols-2 gap-3">
                       <div className="glitch-border-1 bg-[#070B14]/80 backdrop-blur-sm border border-primary/20 p-3 rounded-lg flex flex-col items-start justify-start gap-2 hover:border-primary/60 transition-colors">
                         <div className="bg-primary/10 p-1.5 rounded text-primary">
                           <svg className="w-5 h-5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>
                         </div>
-                        <span className="text-[10px] sm:text-xs font-bold text-slate-200 leading-tight"><span className="glitch-text-3">Projetos 100%</span><br/>Autorais</span>
+                        <span className="text-[11px] sm:text-[13px] font-bold text-slate-200 leading-tight"><span className="glitch-text-3">Projetos 100%</span><br/>Autorais</span>
                       </div>
                       <div className="glitch-border-2 bg-[#070B14]/80 backdrop-blur-sm border border-secondary/20 p-3 rounded-lg flex flex-col items-start justify-start gap-2 hover:border-secondary/60 transition-colors">
                         <div className="bg-secondary/10 p-1.5 rounded text-secondary">
                           <svg className="w-5 h-5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
                         </div>
-                        <span className="text-[10px] sm:text-xs font-bold text-slate-200 leading-tight">Foco em <span className="glitch-text-1">Alta</span><br/>Performance</span>
+                        <span className="text-[11px] sm:text-[13px] font-bold text-slate-200 leading-tight">Foco em <span className="glitch-text-1">Alta</span><br/>Performance</span>
                       </div>
                     </div>
 
                     <div className="flex flex-wrap justify-start gap-2 mt-1">
-                      <span className="glitch-text-2 px-3 py-1.5 bg-primary/10 border border-primary/30 rounded-lg text-primary text-[10px] font-medium">React & Vite</span>
-                      <span className="glitch-text-1 px-3 py-1.5 bg-secondary/10 border border-secondary/30 rounded-lg text-secondary text-[10px] font-medium">Tailwind CSS</span>
-                      <span className="glitch-text-3 px-3 py-1.5 bg-primary/10 border border-primary/30 rounded-lg text-primary text-[10px] font-medium">Integração IA</span>
+                      <span className="glitch-text-2 px-3 py-1.5 bg-primary/10 border border-primary/30 rounded-lg text-primary text-[11px] font-medium">React & Vite</span>
+                      <span className="glitch-text-1 px-3 py-1.5 bg-secondary/10 border border-secondary/30 rounded-lg text-secondary text-[11px] font-medium">Tailwind CSS</span>
+                      <span className="glitch-text-3 px-3 py-1.5 bg-primary/10 border border-primary/30 rounded-lg text-primary text-[11px] font-medium">Integração IA</span>
                     </div>
                   </div>
               </div>
             </div>
 
             {/* =========================================
-                VERSÃO DESKTOP DA SEÇÃO SOBRE (Intocada)
+                VERSÃO DESKTOP DA SEÇÃO SOBRE
             ========================================= */}
             <div className="hidden md:flex flex-row items-center gap-12 lg:gap-16 w-full">
               <div className="flex-1 flex justify-start items-center">
@@ -350,7 +341,7 @@ function App() {
         {/* SEÇÃO: PILARES DA ENGENHARIA */}
         <section id="servicos" className="bg-[#0A0F1C]/80 border-y border-secondary/20 py-12 md:py-20 backdrop-blur-sm">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-2xl md:text-4xl font-bold text-primary mb-8 md:mb-12 text-left">
+            <h2 className="text-[25px] md:text-4xl font-bold text-primary mb-8 md:mb-12 text-left">
               Os Pilares da <span className="glitch-text-2 text-white">Engenharia</span>
             </h2>
             
@@ -360,8 +351,8 @@ function App() {
                   <svg className="w-8 h-8 md:w-10 md:h-10 text-primary glitch-text-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
                 </div>
                 <div className="text-left">
-                  <h3 className="text-sm md:text-xl font-bold text-white mb-1 md:mb-4">Pilar 1 - Performance</h3>
-                  <p className="text-[11px] md:text-sm text-slate-400 leading-relaxed">
+                  <h3 className="text-[15px] md:text-xl font-bold text-white mb-1 md:mb-4">Pilar 1 - Performance</h3>
+                  <p className="text-[12px] md:text-sm text-slate-400 leading-relaxed">
                     Aplicações que carregam em milissegundos, usando as mesmas tecnologias modernas adotadas pelo mercado.
                   </p>
                 </div>
@@ -372,8 +363,8 @@ function App() {
                   <svg className="w-8 h-8 md:w-10 md:h-10 text-secondary glitch-text-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                 </div>
                 <div className="text-left">
-                  <h3 className="text-sm md:text-xl font-bold text-white mb-1 md:mb-4">Pilar 2 - Segurança</h3>
-                  <p className="text-[11px] md:text-sm text-slate-400 leading-relaxed">
+                  <h3 className="text-[15px] md:text-xl font-bold text-white mb-1 md:mb-4">Pilar 2 - Segurança</h3>
+                  <p className="text-[12px] md:text-sm text-slate-400 leading-relaxed">
                     Toda a arquitetura e captação de leads é desenhada em conformidade com as exigências da LGPD.
                   </p>
                 </div>
@@ -384,8 +375,8 @@ function App() {
                   <svg className="w-8 h-8 md:w-10 md:h-10 text-primary glitch-text-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
                 </div>
                 <div className="text-left">
-                  <h3 className="text-sm md:text-xl font-bold text-white mb-1 md:mb-4">Pilar 3 - Design Único</h3>
-                  <p className="text-[11px] md:text-sm text-slate-400 leading-relaxed">
+                  <h3 className="text-[15px] md:text-xl font-bold text-white mb-1 md:mb-4">Pilar 3 - Design Único</h3>
+                  <p className="text-[12px] md:text-sm text-slate-400 leading-relaxed">
                     Fugimos do genérico. Interfaces estrategicamente focadas na experiência do usuário e conversão.
                   </p>
                 </div>
@@ -401,7 +392,7 @@ function App() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="flex items-center mb-10 md:mb-16 justify-start">
               <svg className="w-6 h-6 md:w-7 md:h-7 text-secondary mr-3 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-              <h2 className="text-2xl md:text-4xl font-bold text-white">Como eu <span className="glitch-text-2 text-primary">Trabalho</span></h2>
+              <h2 className="text-[25px] md:text-4xl font-bold text-white">Como eu <span className="glitch-text-2 text-primary">Trabalho</span></h2>
             </div>
 
             <div className="relative border-l-2 border-secondary/30 ml-3 md:ml-0 space-y-8 md:space-y-12">
@@ -409,9 +400,9 @@ function App() {
               <div className="relative pl-6 md:pl-12 group">
                 <div className="absolute -left-[9px] md:-left-[11px] top-1 h-4 w-4 md:h-5 md:w-5 rounded-full bg-[#070B14] border-2 border-primary shadow-[0_0_10px_rgba(0,240,255,0.5)] group-hover:bg-primary transition-colors duration-300"></div>
                 <div className="glitch-border-1 bg-[#0A0F1C]/80 backdrop-blur-sm p-4 md:p-8 rounded-xl border border-primary/20 hover:-translate-y-1 transition-transform duration-300">
-                  <span className="text-primary font-mono text-[9px] md:text-sm font-bold tracking-widest block mb-1 md:mb-2">FASE 01 // DIAGNÓSTICO</span>
-                  <h3 className="text-base md:text-xl font-bold text-white mb-2 md:mb-3">Estratégia e Briefing</h3>
-                  <p className="text-slate-400 text-[11px] md:text-sm leading-relaxed">
+                  <span className="text-primary font-mono text-[9.5px] md:text-sm font-bold tracking-widest block mb-1 md:mb-2">FASE 01 // DIAGNÓSTICO</span>
+                  <h3 className="text-[17px] md:text-xl font-bold text-white mb-2 md:mb-3">Estratégia e Briefing</h3>
+                  <p className="text-slate-400 text-[12px] md:text-sm leading-relaxed">
                     Antes de escrever qualquer linha, mapeamos os seus objetivos, público e as funcionalidades essenciais para que o software realmente resolva o seu problema.
                   </p>
                 </div>
@@ -420,9 +411,9 @@ function App() {
               <div className="relative pl-6 md:pl-12 group">
                 <div className="absolute -left-[9px] md:-left-[11px] top-1 h-4 w-4 md:h-5 md:w-5 rounded-full bg-[#070B14] border-2 border-secondary shadow-[0_0_10px_rgba(157,0,255,0.5)] group-hover:bg-secondary transition-colors duration-300"></div>
                 <div className="glitch-border-2 bg-[#0A0F1C]/80 backdrop-blur-sm p-4 md:p-8 rounded-xl border border-secondary/20 hover:-translate-y-1 transition-transform duration-300">
-                  <span className="text-secondary font-mono text-[9px] md:text-sm font-bold tracking-widest block mb-1 md:mb-2">FASE 02 // PROJETO</span>
-                  <h3 className="text-base md:text-xl font-bold text-white mb-2 md:mb-3">Arquitetura & Design</h3>
-                  <p className="text-slate-400 text-[11px] md:text-sm leading-relaxed">
+                  <span className="text-secondary font-mono text-[9.5px] md:text-sm font-bold tracking-widest block mb-1 md:mb-2">FASE 02 // PROJETO</span>
+                  <h3 className="text-[17px] md:text-xl font-bold text-white mb-2 md:mb-3">Arquitetura & Design</h3>
+                  <p className="text-slate-400 text-[12px] md:text-sm leading-relaxed">
                     Criamos a planta do projeto. Defino a arquitetura e construo interfaces (UX/UI) focadas em conversão, garantindo uma experiência premium.
                   </p>
                 </div>
@@ -431,9 +422,9 @@ function App() {
               <div className="relative pl-6 md:pl-12 group">
                 <div className="absolute -left-[9px] md:-left-[11px] top-1 h-4 w-4 md:h-5 md:w-5 rounded-full bg-[#070B14] border-2 border-primary shadow-[0_0_10px_rgba(0,240,255,0.5)] group-hover:bg-primary transition-colors duration-300"></div>
                 <div className="glitch-border-3 bg-[#0A0F1C]/80 backdrop-blur-sm p-4 md:p-8 rounded-xl border border-primary/20 hover:-translate-y-1 transition-transform duration-300">
-                  <span className="text-primary font-mono text-[9px] md:text-sm font-bold tracking-widest block mb-1 md:mb-2">FASE 03 // CÓDIGO</span>
-                  <h3 className="text-base md:text-xl font-bold text-white mb-2 md:mb-3">Desenvolvimento</h3>
-                  <p className="text-slate-400 text-[11px] md:text-sm leading-relaxed">
+                  <span className="text-primary font-mono text-[9.5px] md:text-sm font-bold tracking-widest block mb-1 md:mb-2">FASE 03 // CÓDIGO</span>
+                  <h3 className="text-[17px] md:text-xl font-bold text-white mb-2 md:mb-3">Desenvolvimento</h3>
+                  <p className="text-slate-400 text-[12px] md:text-sm leading-relaxed">
                     Aqui a mágica acontece. Transformo o design em sistema utilizando tecnologias modernas (React, Tailwind) e integrando Inteligência Artificial onde necessário.
                   </p>
                 </div>
@@ -442,9 +433,9 @@ function App() {
               <div className="relative pl-6 md:pl-12 group">
                 <div className="absolute -left-[9px] md:-left-[11px] top-1 h-4 w-4 md:h-5 md:w-5 rounded-full bg-[#070B14] border-2 border-secondary shadow-[0_0_10px_rgba(157,0,255,0.5)] group-hover:bg-secondary transition-colors duration-300"></div>
                 <div className="glitch-border-1 bg-[#0A0F1C]/80 backdrop-blur-sm p-4 md:p-8 rounded-xl border border-secondary/20 hover:-translate-y-1 transition-transform duration-300">
-                  <span className="text-secondary font-mono text-[9px] md:text-sm font-bold tracking-widest block mb-1 md:mb-2">FASE 04 // DEPLOY</span>
-                  <h3 className="text-base md:text-xl font-bold text-white mb-2 md:mb-3">Lançamento & Escala</h3>
-                  <p className="text-slate-400 text-[11px] md:text-sm leading-relaxed">
+                  <span className="text-secondary font-mono text-[9.5px] md:text-sm font-bold tracking-widest block mb-1 md:mb-2">FASE 04 // DEPLOY</span>
+                  <h3 className="text-[17px] md:text-xl font-bold text-white mb-2 md:mb-3">Lançamento & Escala</h3>
+                  <p className="text-slate-400 text-[12px] md:text-sm leading-relaxed">
                     Testes rigorosos de velocidade, segurança e responsividade. O sistema é entregue otimizado (SEO) e pronto para receber alto volume de acessos sem travar.
                   </p>
                 </div>
@@ -458,29 +449,29 @@ function App() {
         <section id="projetos" className="py-12 md:py-20 pl-4 pr-0 md:px-8 max-w-6xl mx-auto">
           <div className="flex items-center mb-8 md:mb-12 justify-start pr-4 md:pr-0">
             <svg className="w-6 h-6 md:w-7 md:h-7 text-primary mr-3 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
-            <h2 className="text-2xl md:text-3xl font-bold text-white">Projetos <span className="glitch-text-1 text-secondary">Desenvolvidos</span></h2>
+            <h2 className="text-[25px] md:text-3xl font-bold text-white">Projetos <span className="glitch-text-1 text-secondary">Desenvolvidos</span></h2>
           </div>
 
           <div className="flex overflow-x-auto md:grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 snap-x snap-mandatory hide-scrollbar pb-6 pr-4 md:pr-0 md:pb-0">
             
             <div className="min-w-[85%] sm:min-w-[300px] md:min-w-0 snap-center bg-[#0A0F1C] rounded-xl overflow-hidden border border-secondary/30 hover:-translate-y-1 md:hover:-translate-y-2 hover:border-primary transition-all duration-300 hover:shadow-[0_0_15px_rgba(0,240,255,0.2)]">
               <div className="h-40 md:h-48 bg-[#070B14] flex items-center justify-center border-b border-secondary/20">
-                <span className="text-primary font-medium glitch-text-3 text-sm">Projeto 1</span>
+                <span className="text-primary font-medium glitch-text-3 text-[15px] md:text-sm">Projeto 1</span>
               </div>
               <div className="p-5 md:p-6">
-                <h3 className="text-lg md:text-xl font-bold text-white mb-2">Seu Novo Site</h3>
-                <p className="text-slate-400 text-xs md:text-sm mb-4 line-clamp-3">
+                <h3 className="text-[19px] md:text-xl font-bold text-white mb-2">Seu Novo Site</h3>
+                <p className="text-slate-400 text-[13px] md:text-sm mb-4 line-clamp-3">
                   Substitua pelos sites reais que você desenvolveu com a sua nova experiência técnica.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-5 md:mb-6">
-                  <span className="text-[9px] md:text-xs font-medium text-primary bg-primary/10 border border-primary/30 px-2 py-1 rounded">React</span>
-                  <span className="text-[9px] md:text-xs font-medium text-secondary bg-secondary/10 border border-secondary/30 px-2 py-1 rounded">Tailwind</span>
+                  <span className="text-[9.5px] md:text-xs font-medium text-primary bg-primary/10 border border-primary/30 px-2 py-1 rounded">React</span>
+                  <span className="text-[9.5px] md:text-xs font-medium text-secondary bg-secondary/10 border border-secondary/30 px-2 py-1 rounded">Tailwind</span>
                 </div>
                 <div className="flex gap-3 md:gap-4">
-                  <a href="#" className="matrix-glitch relative flex-1 flex items-center justify-center text-[10px] md:text-sm font-medium text-white bg-[#070B14] border border-secondary/50 py-2.5 md:py-2 rounded transition-colors">
+                  <a href="#" className="matrix-glitch relative flex-1 flex items-center justify-center text-[11px] md:text-sm font-medium text-white bg-[#070B14] border border-secondary/50 py-2.5 md:py-2 rounded transition-colors">
                     Repo
                   </a>
-                  <a href="#" className="matrix-glitch relative flex-1 flex items-center justify-center gap-2 text-[10px] md:text-sm font-medium text-[#070B14] bg-primary py-2.5 md:py-2 rounded transition-colors shadow-[0_0_10px_rgba(0,240,255,0.4)]">
+                  <a href="#" className="matrix-glitch relative flex-1 flex items-center justify-center gap-2 text-[11px] md:text-sm font-medium text-[#070B14] bg-primary py-2.5 md:py-2 rounded transition-colors shadow-[0_0_10px_rgba(0,240,255,0.4)]">
                     <svg className="w-3.5 h-3.5 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><path d="M15 3h6v6"/><path d="M10 14L21 3"/></svg> Demo
                   </a>
                 </div>
@@ -489,7 +480,7 @@ function App() {
 
             <div className="min-w-[85%] sm:min-w-[300px] md:min-w-0 snap-center bg-[#0A0F1C] rounded-xl overflow-hidden border border-secondary/30 hover:-translate-y-1 md:hover:-translate-y-2 hover:border-secondary transition-all duration-300 flex flex-col justify-center items-center h-full min-h-[300px] md:min-h-[400px]">
               <svg className="w-10 h-10 md:w-12 md:h-12 text-secondary mb-3 md:mb-4 glitch-text-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
-              <h3 className="text-sm md:text-lg font-medium text-slate-300 px-4 text-center">Mais projetos na Apresentação</h3>
+              <h3 className="text-[15px] md:text-lg font-medium text-slate-300 px-4 text-center">Mais projetos na Apresentação</h3>
             </div>
           </div>
         </section>
@@ -498,8 +489,8 @@ function App() {
       {/* FOOTER / CONTACT SECTION */}
       <footer id="contato" className="bg-[#070B14] border-t border-secondary/30 py-10 md:py-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold text-white mb-3 md:mb-6">Pronto para <span className="text-primary glitch-text-3">escalar</span> o seu negócio?</h2>
-          <p className="text-slate-400 text-xs md:text-base mb-8 max-w-2xl mx-auto px-2">
+          <h2 className="text-[25px] md:text-3xl font-bold text-white mb-3 md:mb-6">Pronto para <span className="text-primary glitch-text-3">escalar</span> o seu negócio?</h2>
+          <p className="text-slate-400 text-[13px] md:text-base mb-8 max-w-2xl mx-auto px-2">
             O meu objetivo não é entregar apenas um site, mas construir uma base digital sólida.
           </p>
           
@@ -512,8 +503,8 @@ function App() {
                 <svg className="w-5 h-5 md:w-6 md:h-6 text-primary flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
               </div>
               <div className="text-center md:text-left">
-                <p className="text-[8px] md:text-xs text-secondary font-medium uppercase tracking-wider mb-1">E-mail</p>
-                <p className="font-medium text-[9px] sm:text-xs md:text-base break-all">gustavo.beserra29@gmail.com</p>
+                <p className="text-[8.5px] md:text-xs text-secondary font-medium uppercase tracking-wider mb-1">E-mail</p>
+                <p className="font-medium text-[10px] sm:text-[13px] md:text-base break-all">gustavo.beserra29@gmail.com</p>
               </div>
             </a>
             
@@ -529,15 +520,15 @@ function App() {
                 </svg>
               </div>
               <div className="text-center md:text-left">
-                <p className="text-[8px] md:text-xs text-secondary font-medium uppercase tracking-wider mb-1">LinkedIn</p>
-                <p className="font-medium text-[9px] sm:text-xs md:text-base break-all">Conecte-se comigo</p>
+                <p className="text-[8.5px] md:text-xs text-secondary font-medium uppercase tracking-wider mb-1">LinkedIn</p>
+                <p className="font-medium text-[10px] sm:text-[13px] md:text-base break-all">Conecte-se comigo</p>
               </div>
             </a>
           </div>
         </div>
       </footer>
 
-      {/* BOTÃO FLUTUANTE DO WHATSAPP (AGORA COM TAMANHO AUMENTADO NO MOBILE) */}
+      {/* BOTÃO FLUTUANTE DO WHATSAPP */}
       <div className="fixed bottom-3 left-3 md:bottom-6 md:left-6 z-[9999]">
         <a
           href="https://wa.me/5511998954769?text=Olá,%20Gustavo!%20Vim%20pelo%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto."
